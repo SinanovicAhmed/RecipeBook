@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RecipeApp</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Saira+Condensed:wght@100&display=swap");
+    </style>
+  </head>
+  <body>
+    <main class="website">
+      <section class="search-section">
+        <nav class="navigation">
+          <p class="logo">RecipeBook</p>
+          <p class="favourite-recepies">Favourite recipes</p>
+        </nav>
+        <div class="search-box">
+          <input type="text" class="search-bar" />
+          <button class="search-button">Search</button>
+          <div class="more-icon"></div>
+          <div class="more-box">
+            <div class="calorie-settings">
+              <p>Calories</p>
+              <input
+                type="number"
+                class="calorie-input1"
+                placeholder="min-cal"
+              />
+              <div class="separator"></div>
+              <input
+                type="number"
+                class="calorie-input2"
+                placeholder="max-cal"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="display-recepies"></section>
+
+      <section class="in-depth-overview">
+        <nav class="in-depth-overview__nav">
+          <p class="add-to-favourites">Add to Favourites</p>
+          <div class="close-in-depth-overview"></div>
+        </nav>
+        <section class="in-depth-overview__main">
+          <div class="in-depth-overview__main__left">
+            <p class="in-depth-overview__name">Meal name</p>
+            <div class="in-depth-overview__image"></div>
+            <p class="in-depth-overview__servings">Servings:10</p>
+            <div class="in-depth-overview__nutrition">
+              <div class="nutrition__calories">Calories: 255g</div>
+              <div class="nutrition__carbs">Carbs: 255g</div>
+              <div class="nutrition__protein">Protein: 255g</div>
+              <div class="nutrition__fat">Fat: 255g</div>
+            </div>
+          </div>
+          <div class="in-depth-overview__main__right">
+            <p class="in-depth-overview__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+              quae.
+            </p>
+            <p class="caution">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
+              officiis quos aut necessitatibus ad laudantium provident ipsa
+              delectus sit harum. Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Quisquam officiis quos aut necessitatibus ad
+              laudantium provident ipsa delectus sit harum.
+            </p>
+            <a class="link" href="" target="_blank">Link: </a></p>
+          </div>
+        </section>
+      </section>
+      <section class="display-favourite-recepies">
+        <div class="favourite-nav">
+          <p>Favourites</p>
+          <div class="close-favourites"></div>
+        </div>
+        <div class="favourite-main"></div>
+       
+      </section>
+    </main>
+  </body>
+</html>
